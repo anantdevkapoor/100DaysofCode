@@ -1,0 +1,7 @@
+print("Welcome to the tip Calculator")
+Bill=input("Enter the amount of Bill : $ ")
+People=input("Among how many people you want to divide it? ")
+Tip=input("Enter the Percent of Tip you want to add to the Bill. 10/12/15 ")
+Bill=float(Bill)+(float(Bill)*float(Tip)/100.0)
+Per=round(Bill/float(People),2)
+print(f"You have to pay ${Per}")
